@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+   {{>header_links}}
+</head>
+<body>
+  {{> header}}
+
+<!-- Main header -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 main_header_right">
+                        <figure>
+                            <img class="error_image" src="image/404_error.jpg" class="error_image" alt="404eroor image">
+                        </figure>
+                        <h1 class="error_title">{{error_msg}}</h1>
+                        <a class="error_btn" href="/"><button>GO Back</button></a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+   {{> footer}}
+    
+</body>
+</html>
